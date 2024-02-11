@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imagens/icone" type="image/x-icon">
+    <title>Bootstrap-Avançado</title>
+</head>
+<body>
+
+    <header id="cabeçalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Sorvetes</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#promoções">Promoções</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container text-center">
+        <section>
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="b-block w-100" src="./imagens/sorvete01.avif">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="b-block w-100" src="./imagens/sorvete02.avif">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="b-block w-100" src="./imagens/sorvete03.avif">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="b-block w-100" src="./imagens/sorvete04.avif">
+                    </div>
+                
+                </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-8 cost">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/sorvete01.avif" alt="">
+                        <div>
+                            <h4 class="card-title">Sorvete de Chocolate</h4>
+                            <h5 class="card-subtitle">Promoção R$54,90</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sunt quos reiciendis officiis minus vero aut. Impedit ipsa architecto consectetur optio eveniet ducimus exercitationem porro, ab soluta temporibus et totam.</p>
+                            <a href="#" class="btn btn-danger">Compre já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 cost">
+                    <div class="card text-bg-dark">
+                        <img src="/imagens/sorvete05.avif" alt="">
+                        <div>
+                            <h4 class="card-title">Sorvete de Creme</h4>
+                            <h5 class="card-subtitle">Promoção R$54,90</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sunt quos reiciendis officiis minus vero aut. Impedit ipsa architecto consectetur optio eveniet ducimus exercitationem porro, ab soluta temporibus et totam.</p>
+                            <a href="#" class="btn btn-danger">Compre já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 cost">
+                    <div class="card text-bg-dark">
+                        <img src="/imagens/sorvete03.avif" alt="">
+                        <div>
+                            <h4 class="card-title">Sorvete de Napolitano</h4>
+                            <h5 class="card-subtitle">Promoção R$60,00</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sunt quos reiciendis officiis minus vero aut. Impedit ipsa architecto consectetur optio eveniet ducimus exercitationem porro, ab soluta temporibus et totam.</p>
+                            <a href="#" class="btn btn-danger">Compre já</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-8 cost">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/sorvete06.avif" alt="">
+                        <div>
+                            <h4 class="card-title">Sorvete de Chocolate</h4>
+                            <h5 class="card-subtitle">Promoção R$54,90</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sunt quos reiciendis officiis minus vero aut. Impedit ipsa architecto consectetur optio eveniet ducimus exercitationem porro, ab soluta temporibus et totam.</p>
+                            <a href="#" class="btn btn-danger">Compre já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 cost">
+                    <div class="card text-bg-dark">
+                        <img src="/imagens/sorvete05.avif" alt="">
+                        <div>
+                            <h4 class="card-title">Sorvete de Creme</h4>
+                            <h5 class="card-subtitle">Promoção R$54,90</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sunt quos reiciendis officiis minus vero aut. Impedit ipsa architecto consectetur optio eveniet ducimus exercitationem porro, ab soluta temporibus et totam.</p>
+                            <a href="#" class="btn btn-danger">Compre já</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 cost">
+                    <div class="card text-bg-dark">
+                        <img src="/imagens/sorvete03.avif" alt="">
+                        <div>
+                            <h4 class="card-title">Sorvete de Napolitano</h4>
+                            <h5 class="card-subtitle">Promoção R$60,00</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sunt quos reiciendis officiis minus vero aut. Impedit ipsa architecto consectetur optio eveniet ducimus exercitationem porro, ab soluta temporibus et totam.</p>
+                            <a href="#" class="btn btn-danger">Compre já</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        <footer>
+            teste
+        </footer>
+           
+    </div>        
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: pink;
+}
+
+.b-block{
+    height: 500px;
+}
+
+section{
+    margin-top: 25px;
+}
+
+.card-subtitle{
+    margin-bottom: 15px;
+    color: rgb(202, 84, 84);
+}
+
+.row{
+    margin-top: 25px;
+}
+
+header{
+    color: white;
+}
+
+.carousel-inner{
+    border-radius: 5%;
+}
